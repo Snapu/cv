@@ -1,0 +1,83 @@
+{
+    "skillLists": [
+        {
+            "category": "Languages",
+            "skills": [
+                {
+                    "name": "German",
+                    "level": 1
+                },
+                {
+                    "name": "English",
+                    "level": 0
+                },
+                {
+                    "name": "Turkish",
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "category": "Programming",
+            "skills": [
+                {
+                    "name": "Java",
+                    "level": 1
+                },
+                {
+                    "name": "C/C++",
+                    "level": 0
+                },
+                {
+                    "name": "Html",
+                    "level": 0
+                },
+                {
+                    "name": "Javascript",
+                    "level": 0
+                },
+                {
+                    "name": "Typescript",
+                    "level": 0
+                },
+                {
+                    "name": "Python",
+                    "level": 0
+                },
+                {
+                    "name": "Matlab",
+                    "level": 0
+                },
+                {
+                    "name": "Kotlin",
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "category": "Hobbies",
+            "skills": [
+                {
+                    "name": "Snowboarding",
+                    "level": 0
+                },
+                {
+                    "name": "Sailing",
+                    "level": 0
+                },
+                {
+                    "name": "Reading",
+                    "level": 0
+                },
+                {
+                    "name": "Drones",
+                    "level": 0
+                },
+                {
+                    "name": "Fitness",
+                    "level": 1
+                }
+            ]
+        }
+    ]
+}

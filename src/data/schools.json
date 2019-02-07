@@ -1,0 +1,19 @@
+{
+    "schools": [
+        {
+            "degree": "Erasmus: Computer Eng.",
+            "name": "Istanbul Technical University",
+            "date": "Sep 2014 - Jan 2015"
+        },
+        {
+            "degree": "M.Sc. Informatics",
+            "name": "Technical University of Munich",
+            "date": "Apr 2014 - May 2016"
+        },
+        {
+            "degree": "B.Sc. Informatics",
+            "name": "Technical University of Munich",
+            "date": "Oct 2010 - Jan 2014"
+        }
+    ]
+}
