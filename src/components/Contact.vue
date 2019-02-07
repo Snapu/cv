@@ -4,11 +4,13 @@
       <img src="../assets/myAvatar.jpg" class="avatar">
       <div class="content">
         <h1>{{ name }}</h1>
-        <p>{{ address }}<br/>
-        {{ tel }}<br/>
-        {{ email }}<br/>
-        {{ website }}</p>
-        <v-chip small color="primary" outline v-for="keyword in keywords" v-bind:key="keyword">{{ keyword }}</v-chip>
+        <div>{{ address }}</div>
+        <div>{{ tel }}</div>
+        <div>{{ email }}</div>
+        <div>{{ website }}</div>
+        <div class="pt-3">
+          <v-chip small color="primary" outline v-for="keyword in keywords" v-bind:key="keyword">{{ keyword }}</v-chip>
+        </div>
       </div>
     </v-card-title>
   </v-card>
