@@ -1,9 +1,33 @@
 {
     "jobs": [
         {
-            "date": "Feb 2017 - today",
-            "title": "Java Developer @ Audi Business Innovation GmbH",
-            "description": "Developed a web UI for CloudFoundry. Developed a microservices backend for an e-commerce system. Applied principles of resilient software design in the integration of services. Designed and implemented self-contained systems in the further scaling of the project. Carried out technical interviews with external developers and product owners for selection.",
+            "date": "Jan 2019 - today",
+            "title": "Fullstack Developer",
+            "company": "Audi Business Innovation GmbH",
+            "description": "Designed and implemented a SaaS solution for the automotive visualization platform. Implemented a portal and an electron app composed of microfrontends and backed up by serverless infrastructure.",
+            "technologies": [
+                "TypeScript",
+                "LitElement",
+                "Stencil",
+                "Vue",
+                "WebComponents",
+                "AWS",
+                "Terraform",
+                "CloudFormation",
+                "Electron",
+                "Serverless",
+                "Node",
+                "OAuth",
+                "Puppeteer",
+                "TestCafe",
+                "Jest"
+            ]
+        },
+        {
+            "date": "Apr 2017 - Dec 2018",
+            "title": "Java Developer",
+            "company": "Audi Business Innovation GmbH",
+            "description": "Developed a microservices backend for an e-commerce system. Prototyped self-contained systems in the further scaling of the project. Carried out technical interviews with external developers and product owners for team scaling.",
             "technologies": [
                 "Java 8",
                 "Kotlin",
@@ -15,8 +39,8 @@
                 "Spring Security",
                 "Junit",
                 "Hamcrest",
-                "VueJS",
-                "NodeJS",
+                "Vue",
+                "Node",
                 "Docker",
                 "Grafana",
                 "Prometheus",
@@ -28,31 +52,34 @@
                 "MongoDB",
                 "RabbitMQ",
                 "Redis",
-                "Kubernetes"
+                "Kubernetes",
+                "Jenkins"
+            ]
+        },
+        {
+            "date": "Feb 2017 - Mar 2017",
+            "title": "DevOps Engineer",
+            "company": "Audi Business Innovation GmbH",
+            "description": "Provided support for CloudFoundry PaaS and implemented self-service portal.",
+            "technologies": [
+                "CloudFoundry",
+                "Docker",
+                "Kubernetes",
+                "Vue"
             ]
         },
         {
             "date": "Sep 2015 - May 2016",
-            "title": "Master's Thesis @ fortiss GmbH",
+            "title": "Master's Thesis",
+            "company": "fortiss GmbH",
             "description": "Created a vehicle model using Machine Learning for automated controller parametrization for autonomous driving.",
             "technologies": []
         },
         {
             "date": "Apr 2015 - Dec 2015",
-            "title": "Research Assistant @ Technical University of Munich",
-            "description": "Enabled Big Data processing of DNA sequences on the LRZ compute cloud by setting up the infrastructure. Published first scientific paper: Lagkouvardos, Ilias, et al. \"IMNGS: A comprehensive open resource of processed 16S rRNA microbial profiles for ecology and diversity studies.\"",
-            "technologies": []
-        },
-        {
-            "date": "Oct 2012 - Mar 2013",
-            "title": "Software Engineering Intern @ Flughafen München GmbH",
-            "description": "Applied agile management methods in a big software project. Experienced a full software development life cycle starting from requirements engineering to implementation and customer acceptance.",
-            "technologies": []
-        },
-        {
-            "date": "Jun 2011 - May 2012",
-            "title": "Web Developer @ Actiworks Application Solutions GmbH",
-            "description": "Programmed plugins for content management systems and frontend widgets in a small team.",
+            "title": "Research Assistant",
+            "company": "Technical University of Munich",
+            "description": "Enabled Big Data processing of DNA sequences on the LRZ compute cloud by setting up the infrastructure. Published scientific paper: Lagkouvardos, Ilias, et al. \"IMNGS: A comprehensive open resource of processed 16S rRNA microbial profiles for ecology and diversity studies.\"",
             "technologies": []
         }
     ]

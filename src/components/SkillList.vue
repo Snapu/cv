@@ -1,5 +1,5 @@
 <template>
-  <v-card flat class="skill-list-card">
+  <v-card flat>
     <v-card-text>
       <div>
         <div><h5>{{ category }}:</h5></div>
@@ -28,10 +28,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.skill-list-card {
-  width: 100%; 
-}
-</style>
-

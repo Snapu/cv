@@ -18,43 +18,6 @@
             ]
         },
         {
-            "category": "Programming",
-            "skills": [
-                {
-                    "name": "Java",
-                    "level": 1
-                },
-                {
-                    "name": "C/C++",
-                    "level": 0
-                },
-                {
-                    "name": "Html",
-                    "level": 0
-                },
-                {
-                    "name": "Javascript",
-                    "level": 0
-                },
-                {
-                    "name": "Typescript",
-                    "level": 0
-                },
-                {
-                    "name": "Python",
-                    "level": 0
-                },
-                {
-                    "name": "Matlab",
-                    "level": 0
-                },
-                {
-                    "name": "Kotlin",
-                    "level": 0
-                }
-            ]
-        },
-        {
             "category": "Hobbies",
             "skills": [
                 {
@@ -66,16 +29,20 @@
                     "level": 0
                 },
                 {
+                    "name": "Hiking",
+                    "level": 0
+                },
+                {
                     "name": "Reading",
                     "level": 0
                 },
                 {
-                    "name": "Drones",
-                    "level": 0
+                    "name": "Programming",
+                    "level": 1
                 },
                 {
                     "name": "Fitness",
-                    "level": 1
+                    "level": 0
                 }
             ]
         }

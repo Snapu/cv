@@ -1,5 +1,5 @@
 <template>
-  <v-card flat class="contact-card">
+  <v-card flat>
     <v-card-title>
       <img src="../assets/myAvatar.jpg" class="avatar">
       <div class="content">
@@ -35,9 +35,6 @@ export default {
 </script>
 
 <style scoped>
-.contact-card {
-  width: 100%; 
-}
 .avatar {
   margin-left: 1cm;
   width: 4cm;

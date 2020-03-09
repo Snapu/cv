@@ -6,25 +6,25 @@
             <v-flex xs12>
               <contact/>
             </v-flex>
-            <v-flex xs8>
+            <v-flex xs12 md8>
               <div class="section-headline">
                 <v-icon color="primary">work</v-icon>
               </div>
-              <job-item v-for="job in jobs" :key="job.title" :technologies="job.technologies">
-                <template slot="date">{{ job.date }}</template>
-                <template slot="title">{{ job.title }}</template>
-                <template slot="description">{{ job.description }}</template>
-              </job-item>
+              <job-item v-for="job in jobs" :key="job.title"
+                :date="job.date"
+                :title="job.title"
+                :company="job.company"
+                :description="job.description"
+                :technologies="job.technologies"/>
             </v-flex>
-            <v-flex xs4>
+            <v-flex xs12 md4>
               <div class="section-headline">
                 <v-icon color="primary">school</v-icon>
               </div>
-              <school-item v-for="school in schools" :key="school.degree">
-                <template slot="degree">{{ school.degree }}</template>
-                <template slot="name">{{ school.name }}</template>
-                <template slot="date">{{ school.date }}</template>
-              </school-item>
+              <school-item v-for="school in schools" :key="school.degree"
+                :degree="school.degree"
+                :name="school.name"
+                :date="school.date"/>
               <div class="section-headline">
                 <v-icon color="primary">star</v-icon>
               </div>

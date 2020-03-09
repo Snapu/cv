@@ -1,19 +1,14 @@
 <template>
-  <v-card flat class="job-item-card">
+  <v-card flat>
     <v-card-text>
-      <div class="date">
-        <slot name="date"></slot>
-      </div>
+      <div class="date">{{ date }}</div>
       <div class="job">
-        <div><h4><slot name="title"></slot></h4></div>
+        <div><h4>{{ title }} @ {{ company }}</h4></div>
         <div class="job-description">
-          <slot name="description"></slot>
-          <div class="job-technologies">
-            <span v-if="technologies.length>0">Technologies: </span>
-            <template v-for="(technology, index) in technologies">
-              <span v-if="index<technologies.length-1" :key="index">{{ technology }}, </span>
-              <span v-else :key="index">{{ technology }}.</span>
-            </template>
+          <div>{{ description }}</div>
+          <div v-if="technologies.length>0" class="job-technologies">
+            <span>Technologies: </span>
+            <span>{{ technologies.join(', ')}}</span>
           </div>
         </div>
       </div>
@@ -25,18 +20,31 @@
 export default {
   name: 'JobItem',
   props: {
+    date: {
+      type: String,
+      required: true
+    },
+    title: {
+      type: String,
+      required: true
+    },
+    company: {
+      type: String,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
     technologies: {
       type: Array,
       required: true
-    }
+    },
   }
 }
 </script>
 
 <style scoped>
-.job-item-card {
-  width: 100%;
-}
 .job-description {
   border-left-style: solid;
   border-width: 0 0 0 1px;

@@ -1,10 +1,10 @@
 {
     "keywords": [
-        "Microservices",
-        "Resilient Software Design",
-        "Self-Contained Systems",
-        "Scrum",
+        "Domain-Driven Design",
+        "MicroFrontends",
+        "WebComponents",
+        "Serverless",
         "Machine Learning",
-        "Computer Vision"
+        "Scrum"
     ]
 }

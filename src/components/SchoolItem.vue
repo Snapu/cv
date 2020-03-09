@@ -1,10 +1,10 @@
 <template>
-  <v-card flat class="school-item-card">
+  <v-card flat>
     <v-card-text>
       <div class="school">
-        <div><h4><slot name="degree"></slot></h4></div>
-        <div><slot name="name"></slot></div>
-        <div class="school-date"><slot name="date"></slot></div>
+        <div><h4>{{ degree }}</h4></div>
+        <div>{{ name }}</div>
+        <div class="school-date">{{ date }}</div>
       </div>
     </v-card-text>
   </v-card>
@@ -12,14 +12,25 @@
 
 <script>
 export default {
-  name: 'SchoolItem'
+  name: 'SchoolItem',
+  props: {
+    degree: {
+      type: String,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    date: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 
 <style scoped>
-.school-item-card {
-  width: 100%; 
-}
 .school-date {
   color: grey;
 }
